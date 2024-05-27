@@ -1,0 +1,17 @@
+.button{
+  min-width: 260px;
+  padding: 0 24px 0 24px;
+height: 60px;
+background-color: #fc9b27;
+display: inline-flex;
+justify-content: center;
+align-items: center;
+}
+.button:hover {
+  background-color: #fc7427; 
+}
+
+.button:focus {
+  background-color: #fc7427; 
+
+}

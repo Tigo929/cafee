@@ -1,0 +1,26 @@
+/* Ваши базовые стили */
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo__icon {
+  margin-right: 24px;
+}
+
+.logo__text {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 115%;
+  transition: color 0.3s ease; /* Плавный переход для изменения цвета */
+}
+
+/* Новые стили для hover эффекта */
+.logo:hover .logo__icon {
+  transform: scale(1.1); /* Увеличение иконки при наведении */
+  transition: transform 0.3s ease; /* Плавный переход для трансформации */
+}
+
+.logo:hover .logo__text {
+  color: #40e0d0; /* Изменение цвета текста при наведении */
+}

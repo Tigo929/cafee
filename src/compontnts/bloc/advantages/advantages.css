@@ -1,0 +1,17 @@
+.advantages__wrapper {
+  padding: 100px 90px;
+
+}
+.advantages__title {
+  margin-bottom: 63px;
+}
+
+.advantages__list {
+  margin-bottom: 64px;
+}
+.advantages__wrapper-button{
+  display: flex;
+  justify-content: center ;
+}
+.advantages__button {
+}
